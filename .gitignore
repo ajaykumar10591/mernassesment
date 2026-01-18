@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables - CRITICAL: Never commit these!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+
+# Build Outputs
+dist/
+build/
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+backend/*.log
+frontend/*.log
+
+# Testing
+coverage/
+.nyc_output
+backend/coverage/
+frontend/coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+backend/*.tsbuildinfo
+frontend/*.tsbuildinfo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+
+# Qodo AI Assistant
+.qodo/
+
+# Optional caches
+.eslintcache
+.stylelintcache
+.npm
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Vite (Frontend)
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Database files (if using local SQLite)
+*.sqlite
+*.sqlite3
+*.db
+
+# Package manager locks (optional - comment out if you want to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Miscellaneous
+.sass-cache/
+.angular/
+.next/
